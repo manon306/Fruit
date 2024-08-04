@@ -1,0 +1,159 @@
+:root{
+    --main-color:#71a80b;
+    --hover-color:rgb(237, 183, 5);
+}
+.text-primary {
+    color: var(--main-color) !important;
+}
+.display-6 {
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 800;
+    line-height: 1.2;
+}
+li a:hover{
+    color: var(--main-color) !important;
+}
+#navbarDropdown{
+    color: var(--main-color);
+}
+.dropdown-item:hover{
+    background-color: var(--hover-color);
+}
+.icon{
+    color: var(--main-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px var(--hover-color) solid;
+    padding: 4px;
+}
+.icon:hover{
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+.search{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(229, 230, 232, 0.431);
+}
+.x{
+    width: 100%;
+    height: 600px;
+    background-image: url("hero-img.jpg");
+    background-size: cover;
+}
+.container{
+    position: relative;
+    left: 3%;
+    top: 10%;
+}
+h1{
+    color: var(--main-color);
+    font-weight: 900;
+    font-size: 50px;
+}
+.border{
+    height: 60px;
+}
+.btn{
+    background-color: var(--main-color);
+    width: 100px;
+}
+input{
+    height: 40px;
+    width: 500px;
+    outline: none;
+    border: none;
+}
+.box{
+    position: absolute;
+    top: 200px;
+}
+h3{
+    color: #444444;
+}
+p{
+    color: #b8b6b6;
+}
+.r1{
+    gap: 8px;
+}
+.col-lg-3{
+    width: 300px;
+    height: 200px;
+}
+.bx:hover{
+    background-color: var(--hover-color) !important;
+}
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+.carde {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 500px; /* Adjust this value as needed */
+    object-fit: cover;
+}
+
+.btn-custom:hover {
+    background-color: #666666 !important;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.back-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    z-index: 99;
+}
+.page-header
+{
+    background-image: url("https://themewagon.github.io/fruitables/img/cart-page-header-img.jpg");
+}
+a{
+    color: var(--main-color);
+}
+.y {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.group {
+    margin-bottom: 10px;
+}
+label {
+    margin-left: 5px;
+}
+.card:hover{
+    box-shadow: 2px 2px 15px #444444;
+}
+.card img {
+    transition: transform 0.3s ease; /* Smooth transition for the transform effect */
+}
+.card img:hover {
+    transform: scale(1.1); /* Scale up the image to 110% */
+}
+.content_search{
+    width: 100%;
+    height: 700px;
+    background-color: #ccc;
+    position: fixed;
+    z-index: 999;
+    color: #fff;
+}
